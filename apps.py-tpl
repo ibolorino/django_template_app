@@ -1,0 +1,12 @@
+from django.apps import AppConfig
+
+
+class {{ camel_case_app_name }}Config(AppConfig):
+    name = "erp_django.modules.{{ app_name }}"
+    verbose_name = "{{ camel_case_app_name }}"
+
+    def ready(self):
+        try:
+            import erp_django.modules.{{ app_name }}.signals  # noqa F401
+        except ImportError:
+            pass

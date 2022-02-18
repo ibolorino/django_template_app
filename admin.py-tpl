@@ -1,0 +1,2 @@
+from django.contrib import admin
+from erp_django.modules.{{ app_name }}.models import *
