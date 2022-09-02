@@ -2,6 +2,7 @@
 
 Basic template for a new Django project.
 
+```
 -project
 ---modules
 ------app1
@@ -12,5 +13,6 @@ Basic template for a new Django project.
 ---templates
 ------app1
 ------app2
+```
 
 This project template is based on django-cookiecutter template: https://github.com/cookiecutter/cookiecutter-django
